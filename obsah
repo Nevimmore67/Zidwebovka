@@ -7,22 +7,22 @@ Sběr mincí je dynamická hra, kde hráč ovládá postavu pohybující se po m
 
 **Cíl hry:**
 
-* Nasbírat co nejvíce mincí během omezeného času.
-* Efektivně plánovat trasu a minimalizovat zbytečný pohyb.
-* Dosáhnout co nejlepšího skóre a porovnat se s ostatními hráči.
+ Nasbírat co nejvíce mincí během omezeného času.
+ Efektivně plánovat trasu a minimalizovat zbytečný pohyb.
+ Dosáhnout co nejlepšího skóre a porovnat se s ostatními hráči.
 
 **Tipy pro začátek:**
 
-* Sledujte spawn mincí a pohybujte se strategicky.
-* Začněte na nižší obtížnosti, abyste se seznámili s mapou a herními mechanikami.
-* Plánujte pohyb dopředu a nepohybujte se náhodně.
-* Sledujte čas a neponechávejte ho nevyužitý.
+ Sledujte spawn mincí a pohybujte se strategicky.
+ Začněte na nižší obtížnosti, abyste se seznámili s mapou a herními mechanikami.
+ Plánujte pohyb dopředu a nepohybujte se náhodně.
+ Sledujte čas a neponechávejte ho nevyužitý.
 
 **Doporučení pro vizualizaci:**
 
-* Screenshoty mapy a rozestavení mincí.
-* Krátké animace sbírání mincí.
-* Tlačítko „Hrát hru“ výrazně umístěné na stránce.
+ Screenshoty mapy a rozestavení mincí.
+ Krátké animace sbírání mincí.
+ Tlačítko „Hrát hru“ výrazně umístěné na stránce.
 
 ---
 
@@ -32,33 +32,33 @@ Sběr mincí je dynamická hra, kde hráč ovládá postavu pohybující se po m
 
 **Ovládání:**
 
-* W – pohyb nahoru
-* A – pohyb doleva
-* S – pohyb dolů
-* D – pohyb doprava
+ W – pohyb nahoru
+ A – pohyb doleva
+ S – pohyb dolů
+ D – pohyb doprava
 
 **Sbírání mincí:**
 
-* Přiblížení k minci ji automaticky sebere.
-* Mince se objevují náhodně po mapě a mohou být různě rozmístěné.
-* Každá mince zvyšuje skóre a ovlivňuje pozici v leaderboardu.
+Přiblížení k minci ji automaticky sebere.
+ Mince se objevují náhodně po mapě a mohou být různě rozmístěné.
+ Každá mince zvyšuje skóre a ovlivňuje pozici v leaderboardu.
 
 **Časový limit:**
 
-* Každé kolo má omezený čas.
-* Po vypršení kola se skóre porovnává s minimem potřebným k vítězství.
+ Každé kolo má omezený čas.
+ Po vypršení kola se skóre porovnává s minimem potřebným k vítězství.
 
 **Výhra:**
 
-* Nasbírat požadované množství mincí před koncem kola.
-* Dosáhnout nejlepšího možného skóre, pokud hráč soutěží o pozici v leaderboardu.
+ Nasbírat požadované množství mincí před koncem kola.
+ Dosáhnout nejlepšího možného skóre, pokud hráč soutěží o pozici v leaderboardu.
 
 **Tipy pro efektivní hraní:**
 
-* Kombinujte rychlost pohybu s přesností sbírání mincí.
-* Plánujte trasu dopředu, abyste minimalizovali zbytečný pohyb.
-* Sledujte, kde se objevují bonusové mince a využívejte je k maximalizaci skóre.
-* Postupujte podle priority: nejprve sbírejte mince blíže postavě, pak ty vzdálenější, aby cesta byla efektivní.
+ Kombinujte rychlost pohybu s přesností sbírání mincí.
+ Plánujte trasu dopředu, abyste minimalizovali zbytečný pohyb.
+ Sledujte, kde se objevují bonusové mince a využívejte je k maximalizaci skóre.
+ Postupujte podle priority: nejprve sbírejte mince blíže postavě, pak ty vzdálenější, aby cesta byla efektivní.
 
 ---
 
@@ -68,27 +68,27 @@ Sběr mincí je dynamická hra, kde hráč ovládá postavu pohybující se po m
 
 **Easy:**
 
-* Požadavek na počet mincí k vítězství je nízký.
-* Ideální pro začátečníky, kteří se seznamují s mapou a mechanikou hry.
-* Dává čas hráči na naučení se ovládání a predikci spawnů mincí.
+ Požadavek na počet mincí k vítězství je nízký.
+ Ideální pro začátečníky, kteří se seznamují s mapou a mechanikou hry.
+ Dává čas hráči na naučení se ovládání a predikci spawnů mincí.
 
 **Normal:**
 
-* Vyvážená obtížnost pro hráče s průměrnými zkušenostmi.
-* Požadavek na větší rychlost a efektivní plánování trasy.
-* Hráč musí reagovat rychle a správně odhadovat spawn mincí.
+ Vyvážená obtížnost pro hráče s průměrnými zkušenostmi.
+ Požadavek na větší rychlost a efektivní plánování trasy.
+ Hráč musí reagovat rychle a správně odhadovat spawn mincí.
 
 **Hard:**
 
-* Vysoká obtížnost pro zkušené hráče.
-* Mince se objevují rychleji a je nutné plánovat pohyb s přesností.
-* Doporučeno pouze pro hráče, kteří již ovládají základní mechaniky hry a mají dobrou strategii.
+ Vysoká obtížnost pro zkušené hráče.
+ Mince se objevují rychleji a je nutné plánovat pohyb s přesností.
+ Doporučeno pouze pro hráče, kteří již ovládají základní mechaniky hry a mají dobrou strategii.
 
 **Tipy:**
 
-* Začněte na Easy a postupně přecházejte na vyšší obtížnosti, abyste zlepšovali dovednosti a skóre.
-* Na Hardu se soustřeďte na rychlost a precizní plánování pohybu.
-* Sledujte bonusové mince a využívejte power-upy, pokud jsou k dispozici.
+ Začněte na Easy a postupně přecházejte na vyšší obtížnosti, abyste zlepšovali dovednosti a skóre.
+ Na Hardu se soustřeďte na rychlost a precizní plánování pohybu.
+ Sledujte bonusové mince a využívejte power-upy, pokud jsou k dispozici.
 
 ---
 
@@ -98,21 +98,21 @@ Sběr mincí je dynamická hra, kde hráč ovládá postavu pohybující se po m
 
 **Top hráči:**
 
-* Zobrazuje nejlepší hráče podle skóre.
-* Můžete sledovat své pozice a porovnávat výsledky s ostatními.
-* Motivuje k opakovanému hraní a překonávání rekordů.
+ Zobrazuje nejlepší hráče podle skóre.
+ Můžete sledovat své pozice a porovnávat výsledky s ostatními.
+ Motivuje k opakovanému hraní a překonávání rekordů.
 
 **Statistiky:**
 
-* Celkový počet nasbíraných mincí.
-* Počet odehraných kol.
-* Nejvyšší dosažené skóre jednotlivých hráčů.
+ Celkový počet nasbíraných mincí.
+ Počet odehraných kol.
+ Nejvyšší dosažené skóre jednotlivých hráčů.
 
 **Tipy:**
 
-* Sledujte top hráče a snažte se překonat jejich skóre.
-* Pravidelné sledování leaderboardu zvyšuje motivaci a zábavu z hraní.
-* Sledujte, které strategie vedly k nejlepším výsledkům, a přizpůsobte tomu svůj styl hry.
+ Sledujte top hráče a snažte se překonat jejich skóre.
+ Pravidelné sledování leaderboardu zvyšuje motivaci a zábavu z hraní.
+ Sledujte, které strategie vedly k nejlepším výsledkům, a přizpůsobte tomu svůj styl hry.
 
 ---
 
@@ -146,9 +146,9 @@ Sběr mincí je dynamická hra, kde hráč ovládá postavu pohybující se po m
 
 **Tipy:**
 
-* Achievementy kombinují rychlost, strategii a dlouhodobé hraní.
-* Snadné odemyká každý hráč, střední vyžaduje soustředění a efektivní plánování, těžké a extrémní motivují k mistrovským výkonům.
-* Pomáhají hráčům stanovovat cíle a postupně zlepšovat své schopnosti.
+ Achievementy kombinují rychlost, strategii a dlouhodobé hraní.
+ Snadné odemyká každý hráč, střední vyžaduje soustředění a efektivní plánování, těžké a extrémní motivují k mistrovským výkonům.
+ Pomáhají hráčům stanovovat cíle a postupně zlepšovat své schopnosti.
 
 ---
 
@@ -156,13 +156,13 @@ Sběr mincí je dynamická hra, kde hráč ovládá postavu pohybující se po m
 
 **Stránka 6 – Tipy a strategie**
 
-* Plánujte trasu mezi mincemi efektivně a minimalizujte zbytečný pohyb.
-* Sbírejte nejprve mince blízko sebe a pak ty vzdálenější.
-* Sledujte čas a neponechávejte ho nevyužitý.
-* Na vyšší obtížnosti kombinujte rychlost s predikcí spawnů mincí.
-* Používejte power-upy a bonusy k maximalizaci skóre.
-* Sledujte herní mapu a rozvržení mincí, abyste využili každý pohyb optimálně.
-* Přemýšlejte o strategii, která kombinuje rychlost, efektivitu a minimalizaci zbytečných pohybů.
+ Plánujte trasu mezi mincemi efektivně a minimalizujte zbytečný pohyb.
+ Sbírejte nejprve mince blízko sebe a pak ty vzdálenější.
+ Sledujte čas a neponechávejte ho nevyužitý.
+ Na vyšší obtížnosti kombinujte rychlost s predikcí spawnů mincí.
+ Používejte power-upy a bonusy k maximalizaci skóre.
+ Sledujte herní mapu a rozvržení mincí, abyste využili každý pohyb optimálně.
+ Přemýšlejte o strategii, která kombinuje rychlost, efektivitu a minimalizaci zbytečných pohybů.
 
 ---
 
@@ -170,11 +170,11 @@ Sběr mincí je dynamická hra, kde hráč ovládá postavu pohybující se po m
 
 **Stránka 7 – Zvuky a animace**
 
-* Zvukové efekty při sbírání mincí a konci kola.
-* Animace pohybu postavy a ikon mincí.
-* Speciální vizuální efekty při dosažení vysokého skóre.
-* Zvuky a animace zvyšují interaktivitu a celkový zážitek ze hry.
-* Doporučení: využijte jemné animace a vizuální efekty, aby stránka působila živě a dynamicky.
+ Zvukové efekty při sbírání mincí a konci kola.
+ Animace pohybu postavy a ikon mincí.
+ Speciální vizuální efekty při dosažení vysokého skóre.
+ Zvuky a animace zvyšují interaktivitu a celkový zážitek ze hry.
+ Doporučení: využijte jemné animace a vizuální efekty, aby stránka působila živě a dynamicky.
 
 ---
 
