@@ -1,146 +1,185 @@
-Stránka 1 – Home / O hře
+## 1️⃣ Úvod / O hře
 
-1️⃣ Úvod / O hře
+**Stránka 1 – Home / O hře**
 
-💡 Popis:
-Sběr mincí je rychlá a zábavná hra, kde ovládáš postavu a sbíráš mince, které se objevují po mapě. Každá mince zvyšuje skóre a přispívá k tvé konečné výhře.
+**Popis:**
+Sběr mincí je dynamická hra, kde hráč ovládá postavu pohybující se po mapě a sbírá mince, které se objevují náhodně. Každá mince zvyšuje skóre a přispívá k celkovému výsledku. Hra kombinuje rychlost, strategické plánování a přesné načasování, čímž poskytuje zábavu a výzvu hráčům všech úrovní.
 
-🎯 Cíl hry:
+**Cíl hry:**
 
-Nasbírat maximální počet mincí během omezeného času.
-Efektivně plánovat trasu a minimalizovat pohyb.
-Dosáhnout co nejlepšího skóre a porovnat se s ostatními hráči.
+* Nasbírat co nejvíce mincí během omezeného času.
+* Efektivně plánovat trasu a minimalizovat zbytečný pohyb.
+* Dosáhnout co nejlepšího skóre a porovnat se s ostatními hráči.
 
-💡 Tipy pro začátek:
+**Tipy pro začátek:**
 
-Sleduj spawn mincí a pohybuj se strategicky.
-Začni na Easy, abys se naučil mapu a spawn mincí, a postupně zvyšuj obtížnost.
-Neztrácej čas chozením sem a tam – plánuj pohyb dopředu.
+* Sledujte spawn mincí a pohybujte se strategicky.
+* Začněte na nižší obtížnosti, abyste se seznámili s mapou a herními mechanikami.
+* Plánujte pohyb dopředu a nepohybujte se náhodně.
+* Sledujte čas a neponechávejte ho nevyužitý.
 
-🖼️ Vizuální prvky:
+**Doporučení pro vizualizaci:**
 
-GIFy sbírání mincí
-Screenshoty herní mapy
-Tlačítko „Hrát hru“ s výraznou grafikou
-2️⃣ Ovládání / Gameplay
+* Screenshoty mapy a rozestavení mincí.
+* Krátké animace sbírání mincí.
+* Tlačítko „Hrát hru“ výrazně umístěné na stránce.
 
-Stránka 2 – Ovládání
+---
 
-🎮 Ovládání:
+## 2️⃣ Ovládání / Gameplay
 
-W – pohyb nahoru
-A – pohyb doleva
-S – pohyb dolů
-D – pohyb doprava
+**Stránka 2 – Ovládání**
 
-💰 Sbírání mincí:
+**Ovládání:**
 
-Přiblížení k minci = automatické sebrání.
-Mince se objevují náhodně, takže sleduj celou mapu.
-Každá mince zvyšuje skóre a může ovlivnit tvoji pozici v leaderboardu.
+* W – pohyb nahoru
+* A – pohyb doleva
+* S – pohyb dolů
+* D – pohyb doprava
 
-⏱️ Časový limit:
+**Sbírání mincí:**
 
-Každé kolo má omezený čas.
-Po vypršení času se skóre porovnává s požadovaným minimem.
+* Přiblížení k minci ji automaticky sebere.
+* Mince se objevují náhodně po mapě a mohou být různě rozmístěné.
+* Každá mince zvyšuje skóre a ovlivňuje pozici v leaderboardu.
 
-✅ Výhra:
+**Časový limit:**
 
-Nasbírat požadované množství mincí před koncem kola.
-Dosáhnout nejlepšího skóre, pokud se snažíš překonat leaderboard.
+* Každé kolo má omezený čas.
+* Po vypršení kola se skóre porovnává s minimem potřebným k vítězství.
 
-💡 Tip:
+**Výhra:**
 
-Kombinuj rychlý pohyb s přesností sbírání mincí.
-Nepanikař, plánování trasy ti ušetří cenné sekundy.
-3️⃣ Obtížnosti
+* Nasbírat požadované množství mincí před koncem kola.
+* Dosáhnout nejlepšího možného skóre, pokud hráč soutěží o pozici v leaderboardu.
 
-Stránka 3 – Obtížnosti
+**Tipy pro efektivní hraní:**
 
-📊 Easy:
+* Kombinujte rychlost pohybu s přesností sbírání mincí.
+* Plánujte trasu dopředu, abyste minimalizovali zbytečný pohyb.
+* Sledujte, kde se objevují bonusové mince a využívejte je k maximalizaci skóre.
+* Postupujte podle priority: nejprve sbírejte mince blíže postavě, pak ty vzdálenější, aby cesta byla efektivní.
 
-Nižší počet mincí potřebný k vítězství
-Ideální pro začátečníky, pro seznámení s mapou a mechanikou
+---
 
-⚖️ Normal:
+## 3️⃣ Obtížnosti
 
-Vyvážená obtížnost
-Požadavek na větší rychlost a efektivní plánování trasy
+**Stránka 3 – Obtížnosti**
 
-🔥 Hard:
+**Easy:**
 
-Vyšší požadavky, náročná výzva
-Mince se objevují rychleji a je potřeba plánovat pohyb s přesností
-Doporučeno pouze pro zkušené hráče
+* Požadavek na počet mincí k vítězství je nízký.
+* Ideální pro začátečníky, kteří se seznamují s mapou a mechanikou hry.
+* Dává čas hráči na naučení se ovládání a predikci spawnů mincí.
 
-💡 Tip: Začni na Easy a postupně zvyš obtížnost, abys mohl zlepšovat strategii a dosahovat rekordy.
+**Normal:**
 
-4️⃣ Leaderboard / Nejlepší hráči
+* Vyvážená obtížnost pro hráče s průměrnými zkušenostmi.
+* Požadavek na větší rychlost a efektivní plánování trasy.
+* Hráč musí reagovat rychle a správně odhadovat spawn mincí.
 
-Stránka 4 – Leaderboard
+**Hard:**
 
-🏆 Top hráči:
+* Vysoká obtížnost pro zkušené hráče.
+* Mince se objevují rychleji a je nutné plánovat pohyb s přesností.
+* Doporučeno pouze pro hráče, kteří již ovládají základní mechaniky hry a mají dobrou strategii.
 
-Zobrazuje 5–10 nejlepších hráčů podle skóre
-Hráči se mohou porovnat a soutěžit o nejlepší pozici
+**Tipy:**
 
-📈 Statistiky:
+* Začněte na Easy a postupně přecházejte na vyšší obtížnosti, abyste zlepšovali dovednosti a skóre.
+* Na Hardu se soustřeďte na rychlost a precizní plánování pohybu.
+* Sledujte bonusové mince a využívejte power-upy, pokud jsou k dispozici.
 
-Celkové nasbírané mince
-Počet odehraných kol
-Nejvyšší skóre jednotlivých hráčů
+---
 
-💡 Tip:
+## 4️⃣ Leaderboard / Nejlepší hráči
 
-Snaž se porovnat s ostatními a zlepšuj skóre, abys se dostal do top hráčů.
-Leaderboard motivuje k pravidelnému hraní a zvyšuje zábavu.
-5️⃣ Achievementy / Úspěchy
+**Stránka 4 – Leaderboard**
 
-Stránka 5 – Achievementy
+**Top hráči:**
 
-Snadné:
+* Zobrazuje nejlepší hráče podle skóre.
+* Můžete sledovat své pozice a porovnávat výsledky s ostatními.
+* Motivuje k opakovanému hraní a překonávání rekordů.
 
-Seber 50 mincí v jedné hře
-Odehraj 5 kol
+**Statistiky:**
 
-Střední:
+* Celkový počet nasbíraných mincí.
+* Počet odehraných kol.
+* Nejvyšší dosažené skóre jednotlivých hráčů.
+
+**Tipy:**
+
+* Sledujte top hráče a snažte se překonat jejich skóre.
+* Pravidelné sledování leaderboardu zvyšuje motivaci a zábavu z hraní.
+* Sledujte, které strategie vedly k nejlepším výsledkům, a přizpůsobte tomu svůj styl hry.
+
+---
+
+## 5️⃣ Achievementy / Úspěchy
+
+**Stránka 5 – Achievementy**
+
+**Snadné:**
+
+1. Seber 50 mincí v jedné hře
+2. Odehraj 5 kol
+
+**Střední:**
 3. Seber 100 mincí v jedné hře
 4. Vyhraj na obtížnost Normal
+5. Nasbírej 150 mincí celkem
 
-Těžké:
-5. Seber 200 mincí v jedné hře
-6. Vyhraj na obtížnost Hard
-7. Nasbírej 500 mincí celkem
+**Těžké:**
+6. Seber 200 mincí v jedné hře
+7. Vyhraj na obtížnost Hard
+8. Nasbírej 500 mincí celkem
+9. Seber 15 mincí během 15 sekund
+10. Dokonči kolo bez ztráty mincí
 
-💡 Tipy:
+**Extrémní / Pro mistry:**
+11. Seber 300 mincí v jedné hře
+12. Nasbírej 1000 mincí celkem
+13. Vyhraj 5 kol po sobě na Hard
+14. Dokonči kolo se skóre 3× vyšším než požadované minimum
+15. Seber všechny bonusové mince v jednom kole
 
-Snadné achievementy odemyká každý hráč, střední vyžaduje strategii a soustředění.
-Těžké motivují k dlouhodobému hraní a překonávání vlastních rekordů.
-Achievementy kombinují rychlost, postup a obtížnost a dávají hráči cíle ke zlepšení.
-6️⃣ Tipy a strategie
+**Tipy:**
 
-Stránka 6 – Tipy a strategie
+* Achievementy kombinují rychlost, strategii a dlouhodobé hraní.
+* Snadné odemyká každý hráč, střední vyžaduje soustředění a efektivní plánování, těžké a extrémní motivují k mistrovským výkonům.
+* Pomáhají hráčům stanovovat cíle a postupně zlepšovat své schopnosti.
 
-Plánuj trasu mezi mincemi efektivně.
-Sbírej mince nejdříve z okolí a pak ty vzdálenější.
-Sleduj čas a neponechávej ho nevyužitý.
-Na vyšší obtížnosti kombinuj rychlost s predikcí spawnů mincí.
-Pokud je k dispozici, používej power-upy a bonusy k maximalizaci skóre.
-7️⃣ Zvuky a animace
+---
 
-Stránka 7 – Zvuky a animace
+## 6️⃣ Tipy a strategie
 
-Zvukové efekty při sbírání mincí a konci kola.
-Animace pohybu postavy a ikon mincí.
-Speciální efekty při dosažení vysokého skóre nebo aktivaci bonusů.
-Zvuky a animace zvyšují interaktivitu a zážitek ze hry.
-8️⃣ Novinky a aktualizace
+**Stránka 6 – Tipy a strategie**
 
-Stránka 8 – Novinky a aktualizace
+* Plánujte trasu mezi mincemi efektivně a minimalizujte zbytečný pohyb.
+* Sbírejte nejprve mince blízko sebe a pak ty vzdálenější.
+* Sledujte čas a neponechávejte ho nevyužitý.
+* Na vyšší obtížnosti kombinujte rychlost s predikcí spawnů mincí.
+* Používejte power-upy a bonusy k maximalizaci skóre.
+* Sledujte herní mapu a rozvržení mincí, abyste využili každý pohyb optimálně.
+* Přemýšlejte o strategii, která kombinuje rychlost, efektivitu a minimalizaci zbytečných pohybů.
 
-Přidání nových typů mincí: bonusové, násobiče.
-Různé mapy a prostředí pro větší variabilitu hry.
-Power-upy: magnet, speed boost.
-Denní nebo týdenní výzvy pro pravidelné hraní.
-Možnost multiplayeru a soupeření o nejvyšší skóre.
-Aktualizace mohou obsahovat nové achievementy a vizuální efekty.
+---
+
+## 7️⃣ Zvuky a animace
+
+**Stránka 7 – Zvuky a animace**
+
+* Zvukové efekty při sbírání mincí a konci kola.
+* Animace pohybu postavy a ikon mincí.
+* Speciální vizuální efekty při dosažení vysokého skóre.
+* Zvuky a animace zvyšují interaktivitu a celkový zážitek ze hry.
+* Doporučení: využijte jemné animace a vizuální efekty, aby stránka působila živě a dynamicky.
+
+---
+
+## 8️⃣ Novinky a aktualizace
+
+**Stránka 8 – Novinky a aktualizace**
+
+
