@@ -2,6 +2,8 @@
 
 Sběr mincí je rychlá arkádová hra, ve které hráč ovládá postavu pohybující se po mapě a sbírá náhodně se objevující mince. Každá mince zvyšuje skóre, takže hra kombinuje rychlost, strategii a přesné načasování.
 
+Rychlá arkádová hra zaměřená na sbírání mincí, strategii a přesné načasování.
+
 Cíl hry
 
 Cílem je nasbírat co nejvíce mincí během omezeného času, efektivně plánovat pohyb a dosáhnout co nejlepšího skóre.
@@ -18,6 +20,14 @@ Pohyb postavy probíhá pomocí kláves W, A, S a D, které slouží pro pohyb n
 Sbírání mincí
 
 Mince se sbírají automaticky při kontaktu s postavou. Objevují se náhodně po mapě a jejich sbírání zvyšuje celkové skóre hráče.
+
+Herní prvky
+
+Hra obsahuje různé prvky, které zpestřují každé kolo. Patří mezi ně bonusové mince s vyšší hodnotou a dynamický systém objevování mincí, díky kterému je každá hra jiná.
+
+Bonusy a power-upy
+
+Během hry se mohou objevit speciální bonusy, které hráči pomáhají dosáhnout vyššího skóre. Může jít například o dočasné zvýšení rychlosti nebo schopnost přitahovat mince.
 
 Časový limit
 
@@ -48,6 +58,10 @@ Tip
 
 Doporučuje se začít na nižší obtížnosti a postupně přecházet na vyšší.
 
+Statistiky hráče
+
+Hráč může sledovat svůj postup a zlepšování pomocí statistik. Ty zahrnují celkový počet nasbíraných mincí, počet odehraných kol a nejlepší dosažené skóre.
+
 Achievementy / Úspěchy
 Snadné
 
@@ -65,8 +79,16 @@ Extrémní
 
 Získání 300 mincí v jedné hře, nasbírání 100000 mincí celkem, výhra v 10 kolech po sobě na obtížnost Hard, dosažení pětinásobku požadovaného skóre a sesbírání všech bonusových mincí v jednom kole.
 
+Soutěžení
+
+Hra umožňuje porovnání výsledků s ostatními hráči. Cílem je dosáhnout co nejlepšího skóre a umístit se co nejvýše.
+
 Tipy a strategie
 
 Efektivní hraní spočívá v minimalizaci zbytečného pohybu a plánování trasy mezi jednotlivými mincemi. Hráč by měl sledovat rozložení mincí na mapě a přizpůsobit tomu svůj pohyb. Důležité je také správné využívání bonusů a kombinace rychlosti s přesností.
+
+Autor / O projektu
+
+Tato hra byla vytvořena jako projekt zaměřený na kombinaci jednoduché hratelnosti a strategického rozhodování. Cílem je nabídnout rychlou a zábavnou zkušenost, kterou si může zahrát kdokoliv.
 
 Novinky a aktualizace
