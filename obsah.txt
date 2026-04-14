@@ -1,156 +1,94 @@
 Úvod / O hře
 
-Popis:
-Sběr mincí je dynamická hra, kde hráč ovládá postavu pohybující se po mapě a sbírá mince, které se objevují náhodně. Každá mince zvyšuje skóre a přispívá k celkovému výsledku. Hra kombinuje rychlost, strategické plánování a přesné načasování, čímž poskytuje zábavu a výzvu hráčům všech úrovní.
+Sběr mincí je rychlá arkádová hra, ve které hráč ovládá postavu pohybující se po mapě a sbírá náhodně se objevující mince. Každá mince zvyšuje skóre, takže hra kombinuje rychlost, strategii a přesné načasování.
 
-Cíl hry:
+Rychlá arkádová hra zaměřená na sbírání mincí, strategii a přesné načasování.
 
-Nasbírat co nejvíce mincí během omezeného času.
-Efektivně plánovat trasu a minimalizovat zbytečný pohyb.
-Dosáhnout co nejlepšího skóre a porovnat se s ostatními hráči.
+Cíl hry
 
-Tipy pro začátek:
+Cílem je nasbírat co nejvíce mincí během omezeného času, efektivně plánovat pohyb a dosáhnout co nejlepšího skóre.
 
-Sledujte spawn mincí a pohybujte se strategicky.
-Začněte na nižší obtížnosti, abyste se seznámili s mapou a herními mechanikami.
-Plánujte pohyb dopředu a nepohybujte se náhodně.
-Sledujte čas a neponechávejte ho nevyužitý.
+Tipy pro začátek
 
-Doporučení pro vizualizaci:
-
-Screenshoty mapy a rozestavení mincí.
-Krátké animace sbírání mincí.
-Tlačítko „Hrát hru“ výrazně umístěné na stránce.
+Je důležité sledovat, kde se mince objevují, a plánovat pohyb dopředu. Doporučuje se začít na nižší obtížnosti, aby se hráč seznámil s mapou a mechanikami. Pohyb by měl být promyšlený, ne náhodný, a čas by měl být využit co nejefektivněji.
 
 Ovládání / Gameplay
+Ovládání
 
-Ovládání:
+Pohyb postavy probíhá pomocí kláves W, A, S a D, které slouží pro pohyb nahoru, doleva, dolů a doprava.
 
-W – pohyb nahoru
-A – pohyb doleva
-S – pohyb dolů
-D – pohyb doprava
+Sbírání mincí
 
-Sbírání mincí:
+Mince se sbírají automaticky při kontaktu s postavou. Objevují se náhodně po mapě a jejich sbírání zvyšuje celkové skóre hráče.
 
-Přiblížení k minci ji automaticky sebere.
-Mince se objevují náhodně po mapě a mohou být různě rozmístěné.
-Každá mince zvyšuje skóre a ovlivňuje pozici v leaderboardu.
+Herní prvky
 
-Časový limit:
+Hra obsahuje různé prvky, které zpestřují každé kolo. Patří mezi ně bonusové mince s vyšší hodnotou a dynamický systém objevování mincí, díky kterému je každá hra jiná.
 
-Každé kolo má omezený čas.
-Po vypršení kola se skóre porovnává s minimem potřebným k vítězství.
+Bonusy a power-upy
 
-Výhra:
+Během hry se mohou objevit speciální bonusy, které hráči pomáhají dosáhnout vyššího skóre. Může jít například o dočasné zvýšení rychlosti nebo schopnost přitahovat mince.
 
-Nasbírat požadované množství mincí před koncem kola.
-Dosáhnout nejlepšího možného skóre, pokud hráč soutěží o pozici v leaderboardu.
+Časový limit
 
-Tipy pro efektivní hraní:
+Každé kolo je omezeno časem. Po jeho uplynutí se vyhodnotí dosažené skóre.
 
-Kombinujte rychlost pohybu s přesností sbírání mincí.
-Plánujte trasu dopředu, abyste minimalizovali zbytečný pohyb.
-Sledujte, kde se objevují bonusové mince a využívejte je k maximalizaci skóre.
-Postupujte podle priority: nejprve sbírejte mince blíže postavě, pak ty vzdálenější, aby cesta byla efektivní.
+Výhra
+
+Hráč vyhrává splněním požadovaného počtu mincí nebo dosažením co nejlepšího skóre v rámci kola.
+
+Tipy pro efektivní hraní
+
+Důležité je kombinovat rychlost pohybu s přesností. Doporučuje se sbírat nejdříve mince v blízkosti a následně plánovat cestu k vzdálenějším. Strategické plánování pohybu výrazně zvyšuje výsledné skóre.
 
 Obtížnosti
+Easy
 
-Easy:
+Tato obtížnost je určena pro začátečníky. Požadovaný počet mincí k vítězství je nízký a hráč má dostatek času na pochopení herních mechanik.
 
-Požadavek na počet mincí k vítězství je nízký.
-Ideální pro začátečníky, kteří se seznamují s mapou a mechanikou hry.
-Dává čas hráči na naučení se ovládání a predikci spawnů mincí.
+Normal
 
-Normal:
+Vyvážená obtížnost pro běžné hráče. Vyžaduje rychlejší reakce a lepší plánování pohybu.
 
-Vyvážená obtížnost pro hráče s průměrnými zkušenostmi.
-Požadavek na větší rychlost a efektivní plánování trasy.
-Hráč musí reagovat rychle a správně odhadovat spawn mincí.
+Hard
 
-Hard:
+Tato obtížnost je určena pro zkušené hráče. Mince se objevují rychleji a hra klade důraz na přesnost a efektivní rozhodování.
 
-Vysoká obtížnost pro zkušené hráče.
-Mince se objevují rychleji a je nutné plánovat pohyb s přesností.
-Doporučeno pouze pro hráče, kteří již ovládají základní mechaniky hry a mají dobrou strategii.
+Tip
 
-Tipy:
+Doporučuje se začít na nižší obtížnosti a postupně přecházet na vyšší.
 
-Začněte na Easy a postupně přecházejte na vyšší obtížnosti, abyste zlepšovali dovednosti a skóre.
-Na Hardu se soustřeďte na rychlost a precizní plánování pohybu.
-Sledujte bonusové mince a využívejte power-upy, pokud jsou k dispozici.
+Statistiky hráče
 
-Leaderboard / Nejlepší hráči
-
-Top hráči:
-
-Zobrazuje nejlepší hráče podle skóre.
-Můžete sledovat své pozice a porovnávat výsledky s ostatními.
-Motivuje k opakovanému hraní a překonávání rekordů.
-
-Statistiky:
-
-Celkový počet nasbíraných mincí.
-Počet odehraných kol.
-Nejvyšší dosažené skóre jednotlivých hráčů.
-
-Tipy:
-
-Sledujte top hráče a snažte se překonat jejich skóre.
-Pravidelné sledování leaderboardu zvyšuje motivaci a zábavu z hraní.
-Sledujte, které strategie vedly k nejlepším výsledkům, a přizpůsobte tomu svůj styl hry.
+Hráč může sledovat svůj postup a zlepšování pomocí statistik. Ty zahrnují celkový počet nasbíraných mincí, počet odehraných kol a nejlepší dosažené skóre.
 
 Achievementy / Úspěchy
+Snadné
 
-Snadné:
+Získání 50 mincí v jedné hře a odehrání 5 kol.
 
-Seber 50 mincí v jedné hře
-Odehraj 5 kol
+Střední
 
-Střední:
+Získání 100 mincí v jedné hře, výhra na obtížnost Normal a nasbírání 150 mincí celkem.
 
-Seber 100 mincí v jedné hře
-Vyhraj na obtížnost Normal
-Nasbírej 150 mincí celkem
+Těžké
 
-Těžké:
+Získání 200 mincí v jedné hře, výhra na obtížnost Hard, nasbírání 500 mincí celkem a získání 15 mincí během 15 sekund.
 
-Seber 200 mincí v jedné hře
-Vyhraj na obtížnost Hard
-Nasbírej 500 mincí celkem
-Seber 15 mincí během 15 sekund
-Dokonči kolo bez ztráty mincí
+Extrémní
 
-Extrémní / Pro mistry:
+Získání 300 mincí v jedné hře, nasbírání 100000 mincí celkem, výhra v 10 kolech po sobě na obtížnost Hard, dosažení pětinásobku požadovaného skóre a sesbírání všech bonusových mincí v jednom kole.
 
-Seber 300 mincí v jedné hře
-Nasbírej 100000 mincí celkem
-Vyhraj 10 kol po sobě na Hard
-Dokonči kolo se skóre 5× vyšším než požadované minimum
-Seber všechny bonusové mince v jednom kole
+Soutěžení
 
-Tipy:
-
-Achievementy kombinují rychlost, strategii a dlouhodobé hraní.
-Snadné odemyká každý hráč, střední vyžaduje soustředění a efektivní plánování, těžké a extrémní motivují k mistrovským výkonům.
-Pomáhají hráčům stanovovat cíle a postupně zlepšovat své schopnosti.
+Hra umožňuje porovnání výsledků s ostatními hráči. Cílem je dosáhnout co nejlepšího skóre a umístit se co nejvýše.
 
 Tipy a strategie
 
-Plánujte trasu mezi mincemi efektivně a minimalizujte zbytečný pohyb.
-Sbírejte nejprve mince blízko sebe a pak ty vzdálenější.
-Sledujte čas a neponechávejte ho nevyužitý.
-Na vyšší obtížnosti kombinujte rychlost s predikcí spawnů mincí.
-Používejte power-upy a bonusy k maximalizaci skóre.
-Sledujte herní mapu a rozvržení mincí, abyste využili každý pohyb optimálně.
-Přemýšlejte o strategii, která kombinuje rychlost, efektivitu a minimalizaci zbytečných pohybů.
+Efektivní hraní spočívá v minimalizaci zbytečného pohybu a plánování trasy mezi jednotlivými mincemi. Hráč by měl sledovat rozložení mincí na mapě a přizpůsobit tomu svůj pohyb. Důležité je také správné využívání bonusů a kombinace rychlosti s přesností.
 
-Zvuky a animace
+Autor / O projektu
 
-Zvukové efekty při sbírání mincí a konci kola.
-Animace pohybu postavy a ikon mincí.
-Speciální vizuální efekty při dosažení vysokého skóre.
-Zvuky a animace zvyšují interaktivitu a celkový zážitek ze hry.
-Doporučení: využijte jemné animace a vizuální efekty, aby stránka působila živě a dynamicky.
+Tato hra byla vytvořena jako projekt zaměřený na kombinaci jednoduché hratelnosti a strategického rozhodování. Cílem je nabídnout rychlou a zábavnou zkušenost, kterou si může zahrát kdokoliv.
 
 Novinky a aktualizace
