@@ -12,23 +12,26 @@ header {
 }
 
 nav {
-    background: #555;
+    background: #031020;
     display: flex;
     justify-content: center;
 }
 
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 14px 20px;
     text-decoration: none;
 }
 
 nav a:hover {
-    background: #fc0303;
+    background: #ffffff;
+    color:rgb(0, 0, 0) ;
 }
 
 .container {
-    padding: 20px;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: left;
 }
 
 .section {
@@ -36,20 +39,9 @@ nav a:hover {
 }
 
 footer {
-    background: #333;
+    background: #031020;
     color: white;
     text-align: center;
     padding: 10px;
-}
-
-button {
-    padding: 10px 15px;
-    border: none;
-    background: #007BFF;
-    color: white;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #0056b3;
+    
 }
