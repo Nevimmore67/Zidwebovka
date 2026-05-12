@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #1b1b20;
 }
 
 header {
@@ -44,4 +45,16 @@ footer {
     text-align: center;
     padding: 10px;
     
+}
+
+div {
+    
+    color: #ffffff;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  padding-top: 3px;
+  
 }
