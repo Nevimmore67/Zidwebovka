@@ -89,6 +89,6 @@ Efektivní hraní spočívá v minimalizaci zbytečného pohybu a plánování t
 
 Autor / O projektu
 
-Tato hra byla vytvořena jako projekt zaměřený na kombinaci jednoduché hratelnosti a strategického rozhodování. Cílem je nabídnout rychlou a zábavnou zkušenost, kterou si může zahrát kdokoliv.
+Tato hra byla vytvořena jako projekt na vyučovací hodiny Programování ze třídy EP1
 
 Novinky a aktualizace

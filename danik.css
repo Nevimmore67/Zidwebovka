@@ -1,13 +1,8 @@
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #082567;
-    font-family: 'Segoe UI', Arial, sans-serif;
-    color: #e0e8f5;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1b1b20;
 }
 
 header {
@@ -120,27 +115,23 @@ footer {
     background-color: #0d2357;
     color: gold;
     text-align: center;
-    padding: 22px;
-    border-top: 4px solid gold;
-    font-size: 14px;
-    margin-top: 20px;
+    padding: 10px;
+    
 }
 
-.btn-hra {
-    display: inline-block;
-    margin-top: 18px;
-    background-color: #082567;
-    color: gold;
-    font-size: 17px;
-    font-weight: bold;
-    padding: 12px 30px;
-    border-radius: 8px;
-    text-decoration: none;
-    border: 2px solid gold;
-    transition: background-color 0.2s, color 0.2s;
+div {
+    
+    color: #ffffff;
 }
 
-.btn-hra:hover {
-    background-color: gold;
-    color: #082567;
+.logo {
+  width: 48px;
+  height: 48px;
+  padding-top: 3px;
+  
+}
+
+.suction {
+    margin-bottom: 40px;
+    text-align: center;
 }
