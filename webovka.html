@@ -22,10 +22,221 @@
     <a href="#hra">Zahraj si</a>
 </nav>
 
+    </head>
+    <body>
+    
+    <h1>Sběr peněz</h1>
+    
+    <div id="menu">
+        <button onclick="startGame('easy')">Easy</button>
+        <button onclick="startGame('normal')">Normal</button>
+        <button onclick="startGame('hard')">Hard</button>
+    </div>
+    
+    <div id="ui">
+        Skóre: <span id="score">0</span> | 
+        Banka: <span id="bank">0</span> | 
+        Čas: <span id="time">60</span>
+    </div>
+    
+    <div id="gameArea">
+        <div id="player">
+            <div class="head"></div>
+            <div class="body"></div>
+            <div class="legs"></div>
+        </div>
+    </div>
+    
+    <!-- KONCOVÝ MODAL -->
+    <div id="modal">
+        <div id="modalContent">
+            <h2 id="resultText"></h2>
+            <p id="resultStats"></p>
+            <button onclick="openUpgrade()">Bank → Upgrady</button>
+        </div>
+    </div>
+    
+    <!-- UPGRADE MODAL -->
+    <div id="upgradeModal">
+        <div id="upgradeContent">
+            <h2>Upgrady hráče</h2>
+            <p>Banka: <span id="bankUpgrade">0</span></p>
+            <button id="speedBtn" onclick="upgrade('speed')">Rychlost +1 <span class="skill-bar" id="speedBar">[□□□□□]</span> (Cena: <span id="speedCost">5</span>)</button>
+            <button id="reachBtn" onclick="upgrade('reach')">Dosah +5px <span class="skill-bar" id="reachBar">[□□□□□]</span> (Cena: <span id="reachCost">5</span>)</button>
+            <button id="doubleBtn" onclick="upgrade('double')">Double Coins <span class="skill-bar" id="doubleBar">[□□□□□]</span> (Cena: <span id="doubleCost">100</span>)</button>
+            <button id="timeBtn" onclick="upgrade('time')">Extra Time +10s <span class="skill-bar" id="timeBar">[□□□□□]</span> (Cena: <span id="timeCost">100</span>)</button>
+            <br><br>
+            <button onclick="restartGame()">Hrát znovu</button>
+        </div>
+    </div>
+    
+    <script>
+    let score = 0, bank = 0, time = 60, minCoins = 0;
+    let gameInterval, spawnInterval, timerInterval;
+    
+    const player = document.getElementById("player");
+    let playerX = 380, playerY = 230;
+    let speed = 3, reach = 30, doubleCoins = false;
+    let keys = {};
+    
+    let speedLevel = 0, reachLevel = 0, doubleLevel = 0, timeLevel = 0;
+    const maxLevel = 5;
+    
+    let speedCost = 5, reachCost = 5, doubleCost = 100, timeCost = 100;
+    
+    document.addEventListener("keydown", e => keys[e.key.toLowerCase()] = true);
+    document.addEventListener("keyup", e => keys[e.key.toLowerCase()] = false);
+    
+    function startGame(level) {
+        score = 0; time = 60; speed = 3; reach = 30; doubleCoins=false;
+        speedLevel = reachLevel = doubleLevel = timeLevel = 0;
+        speedCost = 5; reachCost = 5; doubleCost = 100; timeCost = 100;
+    
+        document.getElementById("score").innerText = score;
+        document.getElementById("time").innerText = time;
+        document.getElementById("bank").innerText = bank;
+    
+        const gameArea = document.getElementById("gameArea");
+        gameArea.innerHTML = "";
+        gameArea.appendChild(player);
+    
+        player.innerHTML = `
+            <div class="head"></div>
+            <div class="body"></div>
+            <div class="legs"></div>
+        `;
+    
+        if(level==='easy') minCoins=30;
+        if(level==='normal') minCoins=60;
+        if(level==='hard') minCoins=100;
+    
+        playerX=380; playerY=230;
+    
+        clearInterval(gameInterval); clearInterval(spawnInterval); clearInterval(timerInterval);
+    
+        gameInterval=setInterval(()=>{ movePlayer(); checkCollision(); }, 1000/60);
+        timerInterval=setInterval(()=>{ time--; document.getElementById("time").innerText=time; if(time<=0) endGame(); },1000);
+        spawnInterval=setInterval(spawnCoin, 700);
+    }
+    
+    function spawnCoin() {
+        const gameArea=document.getElementById("gameArea");
+        if(gameArea.querySelectorAll(".coin").length >= 25) return;
+    
+        const coin=document.createElement("div"); coin.classList.add("coin");
+        const x=Math.random()*(gameArea.clientWidth-30);
+        const y=Math.random()*(gameArea.clientHeight-30);
+        coin.style.left=x+"px"; coin.style.top=y+"px";
+        gameArea.appendChild(coin);
+    }
+    
+    function movePlayer() {
+        const gameArea=document.getElementById("gameArea");
+        if(keys["w"]) playerY-=speed;
+        if(keys["s"]) playerY+=speed;
+        if(keys["a"]) playerX-=speed;
+        if(keys["d"]) playerX+=speed;
+        playerX=Math.max(0,Math.min(gameArea.clientWidth-40,playerX));
+        playerY=Math.max(0,Math.min(gameArea.clientHeight-50,playerY));
+        player.style.left=playerX+"px"; player.style.top=playerY+"px";
+    }
+    
+    function checkCollision() {
+        const coins=document.querySelectorAll(".coin");
+        coins.forEach(coin=>{
+            const coinRect=coin.getBoundingClientRect();
+            const playerRect=player.getBoundingClientRect();
+            const dx=(playerRect.left+playerRect.width/2)-(coinRect.left+coinRect.width/2);
+            const dy=(playerRect.top+playerRect.height/2)-(coinRect.top+coinRect.height/2);
+            const distance=Math.sqrt(dx*dx+dy*dy);
+    
+            if(distance < reach){
+                coin.remove();
+                let coinValue = 1;
+                coinValue += speedLevel * 0.1;
+                coinValue += reachLevel * 0.15;
+                if(doubleCoins) coinValue *= 1.5;
+                coinValue = Math.floor(coinValue);
+    
+                score += coinValue;
+                bank += coinValue;
+    
+                document.getElementById("score").innerText = score;
+                document.getElementById("bank").innerText = bank;
+            }
+        });
+    }
+    
+    function endGame() {
+        clearInterval(gameInterval); clearInterval(spawnInterval); clearInterval(timerInterval);
+        const win=score>=minCoins;
+        document.getElementById("resultText").innerText=win?"🎉 Vyhrál jsi!":"❌ Prohrál jsi!";
+        document.getElementById("resultStats").innerText=`Nasbíral jsi ${score} / potřeboval jsi ${minCoins}`;
+        document.getElementById("modal").style.display="flex";
+    }
+    
+    function openUpgrade() {
+        document.getElementById("modal").style.display="none";
+        document.getElementById("upgradeModal").style.display="flex";
+        document.getElementById("bankUpgrade").innerText=bank;
+        updateUpgradeButtons();
+    }
+    
+    function upgrade(type){
+        if(type==='speed'){
+            if(speedLevel>=maxLevel) return alert("Rychlost je max.");
+            if(bank>=speedCost){ bank-=speedCost; speed++; speedLevel++; speedCost+=5; }
+            else { alert("Nemáš dostatek mincí!"); }
+        }
+        if(type==='reach'){
+            if(reachLevel>=maxLevel) return alert("Dosah je max.");
+            if(bank>=reachCost){ bank-=reachCost; reach+=5; reachLevel++; reachCost+=5; }
+            else { alert("Nemáš dostatek mincí!"); }
+        }
+        if(type==='double'){
+            if(doubleLevel>=maxLevel) return alert("Double Coins je max.");
+            if(bank>=doubleCost){ bank-=doubleCost; doubleCoins=true; doubleLevel++; doubleCost+=50; }
+            else { alert("Nemáš dostatek mincí!"); }
+        }
+        if(type==='time'){
+            if(timeLevel>=maxLevel) return alert("Extra Time je max.");
+            if(bank>=timeCost){ bank-=timeCost; time+=10; timeLevel++; timeCost+=50; }
+            else { alert("Nemáš dostatek mincí!"); }
+        }
+        document.getElementById("bankUpgrade").innerText=bank;
+        updateUpgradeButtons();
+    }
+    
+    function updateUpgradeButtons(){
+        document.getElementById("speedCost").innerText=speedCost;
+        document.getElementById("reachCost").innerText=reachCost;
+        document.getElementById("doubleCost").innerText=doubleCost;
+        document.getElementById("timeCost").innerText=timeCost;
+        document.getElementById("speedBtn").disabled=speedLevel>=maxLevel;
+        document.getElementById("reachBtn").disabled=reachLevel>=maxLevel;
+        document.getElementById("doubleBtn").disabled=doubleLevel>=maxLevel;
+        document.getElementById("timeBtn").disabled=timeLevel>=maxLevel;
+    
+        document.getElementById("speedBar").innerText=renderBar(speedLevel);
+        document.getElementById("reachBar").innerText=renderBar(reachLevel);
+        document.getElementById("doubleBar").innerText=renderBar(doubleLevel);
+        document.getElementById("timeBar").innerText=renderBar(timeLevel);
+    }
+    
+    function renderBar(level){
+        let bar="";
+        for(let i=0;i<maxLevel;i++) bar+=i<level?"■":"□";
+        return `[${bar}]`;
+    }
+    
+    function restartGame(){
+        document.getElementById("upgradeModal").style.display="none";
+        startGame('easy');
+    }
+    </script>
+
 <div class="container">
-    <section id="homeless" class="suction">
-        <h1>Sběrač s Jarmulkou</h1>
-    </section>
+    
 
 
     <section id="home" class="section">
@@ -52,7 +263,7 @@
           </ol> </p>
           <p>Myslíš si, že si lepší?<br>Zkus svoje štěstí, otestuj své schopnosti a možná je nahradíš.</p>
         
-        <h3>O nás</h3>
+        <h2>O nás</h2>
         <p>Tato hra byla vytvořena jako školní projekt zaměřený na kombinaci jednoduché hratelnosti a strategického rozhodování. Cílem je nabídnout rychlou a zábavnou zkušenost, kterou si může zahrát kdokoliv.</p>
 
 
